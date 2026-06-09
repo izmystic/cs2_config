@@ -1,4 +1,4 @@
-# cs2-config
+# cs2_config
 
 Personal Counter-Strike 2 config. Includes a subtick jump workaround, a jump mode toggle for workshop vs. live play, and a rainbow HUD cycling alias.
 
@@ -16,7 +16,7 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 
 | File | Purpose |
 |------|---------|
-| `autoexec.cfg` | Main config — binds, aliases, viewmodel, radar |
+| `autoexec.cfg` | Main config - binds, aliases, viewmodel, radar |
 | `workaround_jump_start.cfg` | Subtick jump press handler |
 | `workaround_jump_end.cfg` | Subtick jump release handler |
 
@@ -37,7 +37,7 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 
 Two modes, swapped with `F5`:
 
-- **Workaround mode** (default) — uses the subtick jump workaround via `+jump_` alias. HUD cycles through rainbow colors on movement.
-- **Workshop mode** — uses standard `+jump`. HUD is set to white (color 1) and stays frozen.
+- **Workaround mode** (default) - uses the subtick jump workaround via `+jump_` alias. HUD cycles through rainbow colors on movement.
+- **Workshop mode** - uses standard `+jump`. HUD is set to white (color 1) and stays frozen.
 
 The workaround fires `workaround_jump_start.cfg` on keydown and `workaround_jump_end.cfg` on keyup, toggling the `jump` convar through specific values (`1 → 0 → 0` / `-999 → 0 → 0`) to produce consistent jump height under CS2's subtick system.
