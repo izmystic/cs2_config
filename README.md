@@ -31,6 +31,8 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 | `1–5` | Weapon slots |
 | `8` / `9` | Inventory next / prev |
 | `Left/Right Arrow` | Turn left / right |
+| `Up Arrow` | Instant 180 turn right |
+| `Down Arrow` | Instant 180 turn left |
 | `F5` | Toggle jump mode |
 
 ## Jump Mode Toggle (F5)
