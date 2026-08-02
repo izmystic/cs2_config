@@ -22,7 +22,7 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 
 | Key | Action |
 |-----|--------|
-| `WASD` | Movement (also cycles HUD color in workaround mode) |
+| `WASD` | Movement (also cycles HUD color) |
 | `Space` / `Scroll Down` | Jump |
 | `Ctrl` | Duck |
 | `Shift` | Sprint |
