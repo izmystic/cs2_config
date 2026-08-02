@@ -1,6 +1,6 @@
 # cs2_config
 
-Personal Counter-Strike 2 config. Includes a subtick jump workaround, a jump mode toggle for workshop vs. live play, and a rainbow HUD cycling alias.
+Personal Counter-Strike 2 config with rainbow HUD.
 
 ## Installation
 
