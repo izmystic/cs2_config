@@ -4,7 +4,7 @@ Personal Counter-Strike 2 config. Includes a subtick jump workaround, a jump mod
 
 ## Installation
 
-Copy all three files into your CS2 cfg folder:
+Copy `autoexec.cfg` into your CS2 cfg folder:
 
 ```
 steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
