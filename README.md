@@ -18,6 +18,15 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 |------|---------|
 | `autoexec.cfg` | Main config - binds, aliases, viewmodel, radar |
 
+## Sensitivity
+
+| Setting | Value |
+|---------|-------|
+| `sensitivity` | 0.7 |
+| `zoom_sensitivity_ratio` | 0.8 |
+
+The Up/Down Arrow 180-turn binds are calculated for 0.7 sens (`180 / (0.022 * sens)`). If you change `sensitivity`, recalculate the yaw value in `autoexec.cfg` or the 180 turns will be off.
+
 ## Binds
 
 | Key | Action |
@@ -26,8 +35,9 @@ CS2 will load `autoexec.cfg` automatically on launch. Run `exec autoexec` in con
 | `Space` / `Scroll Down` | Jump |
 | `Ctrl` | Duck |
 | `Shift` | Sprint |
-| `1–5` | Weapon slots |
+| `1-5` | Weapon slots |
 | `8` / `9` | Inventory next / prev |
 | `Left/Right Arrow` | Turn left / right |
 | `Up Arrow` | Instant 180 turn right |
 | `Down Arrow` | Instant 180 turn left |
+| `X` | Use skill (dimaserver) / slot 12 |
